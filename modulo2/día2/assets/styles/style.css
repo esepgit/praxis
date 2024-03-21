@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 10;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav__item > a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav__item > a:hover {
+    color: #444;
+}
+
+img {
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#home {
+    margin-top: 100px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form > input {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#form .form__button {
+    padding: 10px 0;
+    background-color: rgb(40, 190, 40);
+    color: #fff;
+}
+
+#form .form__button:hover {
+    background-color: rgb(40 190 40 /0.8);
+}
+
+#form > textarea {
+    resize: none;
+    margin: 10px 0 ;
+    border-radius: 10px;
+}
