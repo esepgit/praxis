@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+header {
+  background: #000;
+  padding-top: 15px;
+}
+
+header > img {
+  width: 100%;
+}
+
+h1 {
+  background: #000000;
+  color: white;
+  text-align: center;
+  height: 73px;
+  font-size: 50px;
+}
+
+.desc-section {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  padding: 45px 100px; 
+  justify-content: space-around;
+}
+
+.desc-section-text {
+  padding-top: 20px;
+  width: 475px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.desc-section > img {
+  height: 240px;
+  width: 400px;
+}
+
+.icons-section {
+  background-color: #1E1A13;
+  color: white;
+  padding: 60px 200px;
+  text-align: center;
+}
+
+.icons-section > h2 {
+  padding-bottom: 50px;
+  font-size: 40px;
+}
+
+.icons-section > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-container > i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.pic-section {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 72px;
+  background-color: #000000;
+}
+
+.pic-section > img {
+  width: 316px;
+  height: 202px;
+}
+
+footer {
+  padding: 39px;
+  background-color: #1E1A13;
+  display: flex;
+  place-content: center;
+  color: #FFFFFF;
+}
