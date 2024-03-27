@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a header example">
+    <meta name="author" content="esep">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Header example</title>
+</head>
+<body>
+    <!-- <header>
+        <h1>Descubre lo último en tecnología bebiendo café</h1>
+        <h3>Charlas, eventos y simposios sobre tecnología</h3>
+    </header> -->
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MyCompany</a>
+            </div>
+        </nav>
+        <header>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 300px">
+                <img src="./assets/img/hero.png" class="d-block w-100 img-fluid" alt="pc on desktop">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Descubre lo último en tecnología bebiendo café</h5>
+                    <p>Charlas, eventos y simposios sobre tecnología</p>
+                </div>
+                </div>
+                <div class="carousel-item" style="height: 300px">
+                <img src="./assets/img/hero2.jpg" class="d-block w-100 img-fluid" alt="two pc on desktop">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Descubre lo último en tecnología bebiendo café</h5>
+                    <p>Charlas, eventos y simposios sobre tecnología</p>
+                </div>
+                </div>
+                <div class="carousel-item" style="height: 300px">
+                <img src="./assets/img/hero3.jpg" class="d-block w-100 img-fluid" alt="person seeing a whiteboard">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Descubre lo último en tecnología bebiendo café</h5>
+                    <p>Charlas, eventos y simposios sobre tecnología.</p>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-7">
+                <main>
+                    <div class="alert alert-info text-center" role="alert">
+                        No olvides subscribirte a nuestro newsletter!
+                    </div>
+                    <section class="text-center">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-outline-primary">Subscribirte</button>
+                    </section>
+                </main>
+            </div>
+            <div class="col-5">
+                <aside>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Noticia 1
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Noticia 2
+                        </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Noticia 3
+                        </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <!-- Card -->
+        <div class="row d-flex justify-content-center">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body text-primary">
+                    <h5 class="card-title">Primary card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Descargando malware</h5>
+        </div>
+        <div class="modal-body">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+        </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
