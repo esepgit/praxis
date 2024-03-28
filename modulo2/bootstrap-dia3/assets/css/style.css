@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    background-color: #28A745;
+}
+
+.logo {
+    width: 86pt;
+}
+
+.card {
+    margin: 6%;
+}
+
+.card-title {
+    font-size: 20pt;
+    font-weight: 300;
+    color: #212529;
+}
+
+.card-text-1 {
+    font-size: 16pt;
+    font-weight: 300;
+    color: #707070;
+}
+
+.ubicacion-icon {
+    color: #707070;
+}
+
+.card-text-2 {
+    font-size: 13pt;
+    font-weight: 300;
+    color: #707070;
+}
+
+.separator {
+    color: #707070A0;
+}
+
+.card-price-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-1 {
+    font-size: 16pt;
+    color: #707070;
+    font-weight: 300;
+}
+
+.price-2 {
+    font-size: 20pt;
+    color: #28A745;
+}
+
+.formulario {
+    background-color: #28A745;
+    color: white;
+    padding: 20px;
+}
+
+.formulario > h5 {
+    font-size: 16pt;
+}
+
+.formulario > form {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.formulario > form > button {
+    width: 36%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+}
+
+footer > img {
+    width: 70pt;
+    margin-bottom: 10px;
+}
+
+footer > p {
+    font-weight: 300;
+    color: #707070;
+}
