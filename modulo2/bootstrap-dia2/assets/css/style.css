@@ -62,6 +62,21 @@ h1 {
     text-decoration: none;
 }
 
+.tarjetas {
+    background-color: var(--color-info);
+    height: 184px;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 60px;
+}
+
+.tarjetas > h5 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
 footer {
     display: flex;
     justify-content: center;
