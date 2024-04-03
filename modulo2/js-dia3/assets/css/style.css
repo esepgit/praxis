@@ -19,6 +19,14 @@ nav {
     font-size: 37pt;
 }
 
+main {
+    padding: 24px 150px 0;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
 .card-title {
     border-bottom: 2px solid var(--color-1);
     font-weight: 700;
@@ -35,4 +43,14 @@ nav {
 .carousel-indicators > button {
     border-radius: 50%;
     height: 3rem;
+}
+
+
+h2 {
+    padding: 23px;
+}
+
+.ingredients, .preparation {
+    font-size: 20pt;
+    max-width: 482px;
 }
