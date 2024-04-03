@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --color-1: #373A3C;
+}
+
+body {
+    font-family: "Cabin", sans-serif;
+    color: var(--color-1);
+}
+
+nav {
+    background-color: var(--color-1);
+}
+
+#logo-name {
+    font-family: "Lobster", sans-serif;
+    font-size: 37pt;
+}
+
+.card-title {
+    border-bottom: 2px solid var(--color-1);
+    font-weight: 700;
+    font-size: 40pt;
+    max-width: 425px;
+    padding-bottom: 23px;
+}
+
+.card-text {
+    font-weight: 700;
+    font-size: 20pt;
+}
