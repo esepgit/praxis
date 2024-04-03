@@ -31,3 +31,8 @@ nav {
     font-weight: 700;
     font-size: 20pt;
 }
+
+.carousel-indicators > button {
+    border-radius: 50%;
+    height: 3rem;
+}
