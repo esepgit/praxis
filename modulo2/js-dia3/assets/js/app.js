@@ -7,7 +7,7 @@ $(document).ready(function () {
     alert("El correo fue enviado correctamente...");
   });
 
-  $("u").dblclick(function () {
+  $("h2").dblclick(function () {
     $(this).css({
       color: "red"
     });
