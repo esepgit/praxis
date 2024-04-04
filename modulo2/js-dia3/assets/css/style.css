@@ -40,12 +40,6 @@ main {
     font-size: 16pt;
 }
 
-.carousel-indicators > button {
-    border-radius: 50%;
-    height: 3rem;
-}
-
-
 h2 {
     padding: 23px;
 }

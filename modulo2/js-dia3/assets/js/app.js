@@ -13,7 +13,7 @@ $(document).ready(function () {
     });
   });
 
- $(".recipe-title").click(function () {
-    $(".recipe-text").toggle();
- })
+  $(".recipe-title").click(function () {
+      $(".recipe-text").toggle();
+  })
 });
