@@ -1,0 +1,27 @@
+// inicio la conexión a postgres
+psql -U postgres
+
+// creo base de datos
+CREATE DATABASE "desafio-Erick-Sepulveda-777";
+
+// me conecto a la base de datos creada
+\c "desafio-Erick-Sepulveda-777";
+
+// creo tabla clientes
+CREATE TABLE clientes(email VARCHAR(50), nombre VARCHAR, telefono VARCHAR(16), empresa VARCHAR(50), prioridad SMALLINT);
+
+// inserto datos a la tabla clientes
+INSERT INTO clientes (email, nombre, telefono, empresa, prioridad) VALUES ('furina@email.com', 'Furina', 12345678, 'Fonta', 10);
+INSERT INTO clientes (email, nombre, telefono, empresa, prioridad) VALUES ('klee@email.com', 'Klee', 22245678, 'Dodoco', 9);
+INSERT INTO clientes (email, nombre, telefono, empresa, prioridad) VALUES ('kaeya@email.com', 'Kaeya', 82348678, 'Favonius', 8);
+INSERT INTO clientes (email, nombre, telefono, empresa, prioridad) VALUES ('benett@email.com', 'Benett', 12000001, 'Adventurer', 7);
+INSERT INTO clientes (email, nombre, telefono, empresa, prioridad) VALUES ('raiden@email.com', 'Raiden', 72747678, 'Shogun', 6);
+
+// selecciono a los 3 cliente de mayor prioridad
+SELECT * FROM clientes ORDER BY prioridad DESC LIMIT 3;
+
+// ordeno los clientes por orden descendente de su empresa, para los clientes con prioridad sobre 7
+SELECT * FROM clientes WHERE prioridad > 7 ORDER BY empresa DESC ;
+
+// salgo de postgres 
+\q
